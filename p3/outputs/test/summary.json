@@ -1,0 +1,153 @@
+{
+  "header_bytes_per_container": 293,
+  "images": 14,
+  "per_class": {
+    "AMERICAN GOLDFINCH": {
+      "huffman": 1.0672,
+      "huffman+horizontal": 1.68,
+      "huffman+vertical": 1.6342,
+      "images": 3,
+      "png": 1.9759,
+      "zlib-6": 1.4427,
+      "zlib6_unframed": 1.4468
+    },
+    "BARN OWL": {
+      "huffman": 1.0445,
+      "huffman+horizontal": 1.7311,
+      "huffman+vertical": 1.6513,
+      "images": 2,
+      "png": 2.0806,
+      "zlib-6": 1.4553,
+      "zlib6_unframed": 1.4595
+    },
+    "CARMINE BEE-EATER": {
+      "huffman": 1.2501,
+      "huffman+horizontal": 2.2355,
+      "huffman+vertical": 2.1076,
+      "images": 2,
+      "png": 2.8729,
+      "zlib-6": 2.1428,
+      "zlib6_unframed": 2.1518
+    },
+    "DOWNY WOODPECKER": {
+      "huffman": 1.0822,
+      "huffman+horizontal": 1.713,
+      "huffman+vertical": 1.6855,
+      "images": 2,
+      "png": 2.1621,
+      "zlib-6": 1.5891,
+      "zlib6_unframed": 1.5941
+    },
+    "EMPEROR PENGUIN": {
+      "huffman": 1.1152,
+      "huffman+horizontal": 2.1688,
+      "huffman+vertical": 1.7672,
+      "images": 2,
+      "png": 2.9665,
+      "zlib-6": 2.0917,
+      "zlib6_unframed": 2.1002
+    },
+    "FLAMINGO": {
+      "huffman": 1.0993,
+      "huffman+horizontal": 1.7208,
+      "huffman+vertical": 1.5375,
+      "images": 3,
+      "png": 1.9171,
+      "zlib-6": 1.302,
+      "zlib6_unframed": 1.3053
+    }
+  },
+  "raw_bytes": 2107392,
+  "variants": {
+    "huffman": {
+      "aggregate_ratio": 1.1027,
+      "best_image": "CARMINE BEE-EATER/065.jpg",
+      "bits_per_byte": 7.255,
+      "per_image_ratio": {
+        "max": 1.3488,
+        "median": 1.0855,
+        "min": 1.0392,
+        "q1": 1.043,
+        "q3": 1.1323
+      },
+      "smallest_on": 0,
+      "total_bytes": 1911150,
+      "worst_image": "FLAMINGO/132.jpg"
+    },
+    "huffman+horizontal": {
+      "aggregate_ratio": 1.8256,
+      "best_image": "CARMINE BEE-EATER/065.jpg",
+      "bits_per_byte": 4.3822,
+      "per_image_ratio": {
+        "max": 2.4227,
+        "median": 1.7735,
+        "min": 1.5814,
+        "q1": 1.6916,
+        "q3": 1.9555
+      },
+      "smallest_on": 0,
+      "total_bytes": 1154376,
+      "worst_image": "FLAMINGO/132.jpg"
+    },
+    "huffman+vertical": {
+      "aggregate_ratio": 1.6938,
+      "best_image": "CARMINE BEE-EATER/065.jpg",
+      "bits_per_byte": 4.7231,
+      "per_image_ratio": {
+        "max": 2.2698,
+        "median": 1.6681,
+        "min": 1.4548,
+        "q1": 1.5999,
+        "q3": 1.734
+      },
+      "smallest_on": 0,
+      "total_bytes": 1244191,
+      "worst_image": "FLAMINGO/110.jpg"
+    },
+    "png": {
+      "aggregate_ratio": 2.2083,
+      "best_image": "CARMINE BEE-EATER/065.jpg",
+      "bits_per_byte": 3.6227,
+      "per_image_ratio": {
+        "max": 3.2793,
+        "median": 2.0855,
+        "min": 1.7836,
+        "q1": 2.0123,
+        "q3": 2.4841
+      },
+      "smallest_on": 14,
+      "total_bytes": 954315,
+      "worst_image": "FLAMINGO/132.jpg"
+    },
+    "zlib-6": {
+      "aggregate_ratio": 1.572,
+      "best_image": "CARMINE BEE-EATER/065.jpg",
+      "bits_per_byte": 5.0891,
+      "per_image_ratio": {
+        "max": 2.3511,
+        "median": 1.5052,
+        "min": 1.1776,
+        "q1": 1.3945,
+        "q3": 1.8878
+      },
+      "smallest_on": 0,
+      "total_bytes": 1340585,
+      "worst_image": "FLAMINGO/132.jpg"
+    },
+    "zlib6_unframed": {
+      "aggregate_ratio": 1.5768,
+      "best_image": "CARMINE BEE-EATER/065.jpg",
+      "bits_per_byte": 5.0735,
+      "per_image_ratio": {
+        "max": 2.3619,
+        "median": 1.5097,
+        "min": 1.1803,
+        "q1": 1.3983,
+        "q3": 1.8948
+      },
+      "smallest_on": 0,
+      "total_bytes": 1336483,
+      "worst_image": "FLAMINGO/132.jpg"
+    }
+  }
+}

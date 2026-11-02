@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "dataset": "Bird Speciees Dataset",
+  "description": "Contract for the dataset as the P3 pipeline consumes it. validate.py enforces every field below; a file that breaks any of them stops the run with exit code 4.",
+  "layout": {
+    "pattern": "<class>/<NNN>.jpg",
+    "class_from": "name of the parent directory",
+    "file_name_regex": "^[0-9]{3}\\.jpg$",
+    "files_outside_class_dirs": "not allowed"
+  },
+  "classes": {
+    "AMERICAN GOLDFINCH": 143,
+    "BARN OWL": 129,
+    "CARMINE BEE-EATER": 131,
+    "DOWNY WOODPECKER": 137,
+    "EMPEROR PENGUIN": 139,
+    "FLAMINGO": 132
+  },
+  "total_files": 811,
+  "file": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 224,
+    "height": 224
+  },
+  "array": {
+    "shape": [224, 224, 3],
+    "dtype": "uint8",
+    "min": 0,
+    "max": 255,
+    "axes": "height, width, channel (R, G, B)",
+    "units": "8-bit gamma-encoded sRGB code values; no physical unit"
+  },
+  "batch": {
+    "shape": ["N", 224, 224, 3],
+    "dtype": "uint8",
+    "order": "manifest order (sorted relative path)"
+  }
+}

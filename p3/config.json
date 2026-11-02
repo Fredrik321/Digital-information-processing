@@ -1,0 +1,20 @@
+{
+  "run_name": "test",
+  "dataset_root": "../Bird Speciees Dataset",
+  "manifest": "manifest.csv",
+  "schema": "schema.json",
+  "out_dir": "outputs/test",
+  "log_dir": "logs",
+  "seed": 4120,
+  "subset": {
+    "per_class": 2,
+    "include": ["AMERICAN GOLDFINCH/001.jpg", "FLAMINGO/132.jpg"]
+  },
+  "variants": ["huffman", "huffman+horizontal", "huffman+vertical", "png", "zlib-6"],
+  "qa": "outputs/qa",
+  "progress_every": 2,
+  "reference": {
+    "AMERICAN GOLDFINCH/001.jpg": {"huffman": 144569, "huffman+horizontal": 94637, "png": 81979, "zlib6_unframed": 105908},
+    "FLAMINGO/132.jpg": {"huffman": 144854, "png": 84397}
+  }
+}

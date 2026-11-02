@@ -1,0 +1,36 @@
+test_0_unmodified_copy_passes (__main__.FailureHandling.test_0_unmodified_copy_passes) ... ok
+test_digest_mismatch (__main__.FailureHandling.test_digest_mismatch) ... ok
+test_interrupted_run_resumes (__main__.FailureHandling.test_interrupted_run_resumes) ... ok
+test_invalid_mode (__main__.FailureHandling.test_invalid_mode) ... ok
+test_invalid_shape (__main__.FailureHandling.test_invalid_shape) ... ok
+test_missing_config (__main__.FailureHandling.test_missing_config) ... ok
+test_missing_dataset_root (__main__.FailureHandling.test_missing_dataset_root) ... ok
+test_missing_input_file (__main__.FailureHandling.test_missing_input_file) ... ok
+test_result_differs_from_reference (__main__.FailureHandling.test_result_differs_from_reference) ... ok
+test_resume_refuses_a_changed_run (__main__.FailureHandling.test_resume_refuses_a_changed_run) ... ok
+test_truncated_file (__main__.FailureHandling.test_truncated_file) ... ok
+test_unlisted_file (__main__.FailureHandling.test_unlisted_file) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 75.993s
+
+OK
+
+exit | test | first error/warning line the run printed
+   0 | test_0_unmodified_copy_passes | 17:09:20 INFO    done in 2.4 s, peak memory 41 MiB
+   3 | test_digest_mismatch | 17:09:25 ERROR   IntegrityError: 1 file(s) do not match the manifest: BARN OWL/007.jpg: sha256 b847652edcecf6a4..., manifest says 9cfb15731fad39e4...
+ 130 | test_interrupted_run_resumes | 17:09:32 WARNING interrupted (simulated by --stop-after 2); finished images are kept in the checkpoint. Rerun the same command to resume.
+   0 | test_interrupted_run_resumes | 17:09:34 WARNING checkpoint: dropped 1 incomplete line(s)
+   0 | test_interrupted_run_resumes | 17:09:37 INFO    done in 2.4 s, peak memory 41 MiB
+   4 | test_invalid_mode | 17:09:44 ERROR   SchemaError: 1 file(s) break the schema: BARN OWL/007.jpg: mode L, expected RGB
+   4 | test_invalid_shape | 17:09:51 ERROR   SchemaError: 1 file(s) break the schema: BARN OWL/007.jpg: size 225x224, expected 224x224
+   2 | test_missing_config | MissingInputError: config file not found: C:\Users\AkselHolmstrømWiersd\AppData\Local\Temp\p3-fail-43o6k_cr\no_such_config.json
+   2 | test_missing_dataset_root | 17:09:58 ERROR   MissingInputError: dataset root not found: C:\Users\AkselHolmstrømWiersd\AppData\Local\Temp\p3-fail-5z3isrxm\data
+   2 | test_missing_input_file | 17:10:02 ERROR   MissingInputError: 1 file(s) listed in the manifest are missing: BARN OWL/007.jpg
+   5 | test_result_differs_from_reference | 17:10:08 ERROR   ReproducibilityError: 1 size(s) differ from the reference: AMERICAN GOLDFINCH/001.jpg png: 81979 bytes, reference 81983
+ 130 | test_resume_refuses_a_changed_run | 17:10:14 WARNING interrupted (simulated by --stop-after 1); finished images are kept in the checkpoint. Rerun the same command to resume.
+   1 | test_resume_refuses_a_changed_run | 17:10:16 ERROR   PipelineError: checkpoint.jsonl belongs to a different run (config, data or code changed); rerun with --fresh to discard it
+   0 | test_resume_refuses_a_changed_run | 17:10:19 INFO    done in 2.7 s, peak memory 41 MiB
+   4 | test_truncated_file | 17:10:26 ERROR   SchemaError: 1 file(s) break the schema: BARN OWL/007.jpg: cannot decode (OSError: image file is truncated (17 bytes not processed))
+   3 | test_unlisted_file | 17:10:30 ERROR   IntegrityError: 1 file(s) are not in the manifest: BARN OWL/999.jpg
+real dataset still matches manifest.csv

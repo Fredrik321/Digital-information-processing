@@ -1,2 +1,8 @@
-/Deliverable 
+/Deliverable
 /p2/Deliverable
+/p3/Deliverable
+__pycache__/
+/p3/.venv/
+/p3/cache/
+/p3/outputs/*/checkpoint.jsonl
+*.tmp

@@ -1,0 +1,143 @@
+{
+  "decoded_pixels_sha256": "cb5f65495c5cfc3f9496d58c9bdc9f4f0b94ffeb7fb5cbd99eaf1e8f66d8de71",
+  "disk_bytes": {
+    "jpeg": 15967831,
+    "npy": 122078336
+  },
+  "encoder": [
+    {
+      "identical_output": true,
+      "p2_heap_peak_kib": 598.4,
+      "p2_seconds": 6.5754,
+      "p3_heap_peak_kib": 288.4,
+      "p3_seconds": 0.0731,
+      "path": "AMERICAN GOLDFINCH/001.jpg",
+      "raw_bytes": 150528,
+      "speedup": 90.0
+    },
+    {
+      "identical_output": true,
+      "p2_heap_peak_kib": 548.6,
+      "p2_seconds": 6.3868,
+      "p3_heap_peak_kib": 261.5,
+      "p3_seconds": 0.0388,
+      "path": "AMERICAN GOLDFINCH/033.jpg",
+      "raw_bytes": 150528,
+      "speedup": 164.6
+    },
+    {
+      "identical_output": true,
+      "p2_heap_peak_kib": 598.9,
+      "p2_seconds": 6.1531,
+      "p3_heap_peak_kib": 288.5,
+      "p3_seconds": 0.0398,
+      "path": "AMERICAN GOLDFINCH/076.jpg",
+      "raw_bytes": 150528,
+      "speedup": 154.6
+    }
+  ],
+  "environment": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "numpy": "2.1.3",
+    "pillow": "11.1.0",
+    "pillow_libjpeg_turbo": "3.1.0",
+    "pillow_zlib": "1.3.1.zlib-ng",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python": "3.11.9",
+    "python_zlib": "1.3.1"
+  },
+  "repeats": 5,
+  "storage": {
+    "jpeg/all": {
+      "channel_mean": [
+        131.7661,
+        127.6015,
+        111.2093
+      ],
+      "heap_peak_mib": 117.4,
+      "images": 811,
+      "method": "jpeg",
+      "rss_increase_mib_median": 118.1,
+      "seconds_max": 1.4805,
+      "seconds_median": 1.3689,
+      "seconds_min": 1.3211,
+      "workload": "all"
+    },
+    "jpeg/subset": {
+      "channel_mean": [
+        136.9122,
+        129.9626,
+        111.9171
+      ],
+      "heap_peak_mib": 3.0,
+      "images": 14,
+      "method": "jpeg",
+      "rss_increase_mib_median": 2.7,
+      "seconds_max": 0.0369,
+      "seconds_median": 0.0354,
+      "seconds_min": 0.035,
+      "workload": "subset"
+    },
+    "npy/all": {
+      "channel_mean": [
+        131.7661,
+        127.6015,
+        111.2093
+      ],
+      "heap_peak_mib": 116.6,
+      "images": 811,
+      "method": "npy",
+      "rss_increase_mib_median": 116.5,
+      "seconds_max": 0.7733,
+      "seconds_median": 0.761,
+      "seconds_min": 0.7536,
+      "workload": "all"
+    },
+    "npy/subset": {
+      "channel_mean": [
+        136.9122,
+        129.9626,
+        111.9171
+      ],
+      "heap_peak_mib": 118.6,
+      "images": 14,
+      "method": "npy",
+      "rss_increase_mib_median": 117.5,
+      "seconds_max": 0.0708,
+      "seconds_median": 0.0654,
+      "seconds_min": 0.0644,
+      "workload": "subset"
+    },
+    "npy_mmap/all": {
+      "channel_mean": [
+        131.7661,
+        127.6015,
+        111.2093
+      ],
+      "heap_peak_mib": 0.1,
+      "images": 811,
+      "method": "npy_mmap",
+      "rss_increase_mib_median": 114.6,
+      "seconds_max": 0.8087,
+      "seconds_median": 0.7734,
+      "seconds_min": 0.7652,
+      "workload": "all"
+    },
+    "npy_mmap/subset": {
+      "channel_mean": [
+        136.9122,
+        129.9626,
+        111.9171
+      ],
+      "heap_peak_mib": 2.1,
+      "images": 14,
+      "method": "npy_mmap",
+      "rss_increase_mib_median": 3.1,
+      "seconds_max": 0.019,
+      "seconds_median": 0.0154,
+      "seconds_min": 0.0149,
+      "workload": "subset"
+    }
+  }
+}

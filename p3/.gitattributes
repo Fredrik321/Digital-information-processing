@@ -1,0 +1,8 @@
+# core.autocrlf would turn these into CRLF on Windows checkouts, which changes
+# their SHA-256 and breaks `sha256sum -c`. Keep them byte-identical everywhere.
+SHA256SUMS text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.log text eol=lf

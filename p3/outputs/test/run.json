@@ -1,0 +1,75 @@
+{
+  "code_sha256": "050edd74c120ce67f51afa9044bd440c9f8d2f4e936cb6c25134d0d0a85d0396",
+  "config": {
+    "dataset_root": "C:\\Users\\AkselHolmstr\u00f8mWiersd\\Documents\\Prog\\VI\\IDIG4120\\Digital-information-processing-\\Bird Speciees Dataset",
+    "log_dir": "C:\\Users\\AkselHolmstr\u00f8mWiersd\\Documents\\Prog\\VI\\IDIG4120\\Digital-information-processing-\\p3\\logs",
+    "manifest": "C:\\Users\\AkselHolmstr\u00f8mWiersd\\Documents\\Prog\\VI\\IDIG4120\\Digital-information-processing-\\p3\\manifest.csv",
+    "out_dir": "C:\\Users\\AkselHolmstr\u00f8mWiersd\\Documents\\Prog\\VI\\IDIG4120\\Digital-information-processing-\\p3\\outputs\\test",
+    "progress_every": 2,
+    "qa": "C:\\Users\\AkselHolmstr\u00f8mWiersd\\Documents\\Prog\\VI\\IDIG4120\\Digital-information-processing-\\p3\\outputs\\qa",
+    "reference": {
+      "AMERICAN GOLDFINCH/001.jpg": {
+        "huffman": 144569,
+        "huffman+horizontal": 94637,
+        "png": 81979,
+        "zlib6_unframed": 105908
+      },
+      "FLAMINGO/132.jpg": {
+        "huffman": 144854,
+        "png": 84397
+      }
+    },
+    "run_name": "test",
+    "schema": "C:\\Users\\AkselHolmstr\u00f8mWiersd\\Documents\\Prog\\VI\\IDIG4120\\Digital-information-processing-\\p3\\schema.json",
+    "seed": 4120,
+    "subset": {
+      "include": [
+        "AMERICAN GOLDFINCH/001.jpg",
+        "FLAMINGO/132.jpg"
+      ],
+      "per_class": 2
+    },
+    "variants": [
+      "huffman",
+      "huffman+horizontal",
+      "huffman+vertical",
+      "png",
+      "zlib-6"
+    ]
+  },
+  "config_sha256": "405d43b10c5e7d4b30af627d8e958a5dcd1c2fd6402fb32aaa976712742a33c4",
+  "decoded_pixels_sha256": "cb5f65495c5cfc3f9496d58c9bdc9f4f0b94ffeb7fb5cbd99eaf1e8f66d8de71",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "numpy": "2.1.3",
+    "pillow": "11.1.0",
+    "pillow_libjpeg_turbo": "3.1.0",
+    "pillow_zlib": "1.3.1.zlib-ng",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python": "3.11.9",
+    "python_zlib": "1.3.1"
+  },
+  "manifest_sha256": "6af9010bab12a83348f0ef68bdf416de97bb5564bd7cd2e300d554f3b83448c3",
+  "peak_rss_bytes": 96194560,
+  "reference_mismatches": [],
+  "results_csv_sha256": "13e7b955ae5ba0532f0f9dfed24d519ca3494643edd0a1947536e02ccf86ef37",
+  "seconds": 21.7,
+  "subset": [
+    "AMERICAN GOLDFINCH/001.jpg",
+    "AMERICAN GOLDFINCH/033.jpg",
+    "AMERICAN GOLDFINCH/076.jpg",
+    "BARN OWL/066.jpg",
+    "BARN OWL/082.jpg",
+    "CARMINE BEE-EATER/065.jpg",
+    "CARMINE BEE-EATER/082.jpg",
+    "DOWNY WOODPECKER/124.jpg",
+    "DOWNY WOODPECKER/131.jpg",
+    "EMPEROR PENGUIN/055.jpg",
+    "EMPEROR PENGUIN/117.jpg",
+    "FLAMINGO/110.jpg",
+    "FLAMINGO/128.jpg",
+    "FLAMINGO/132.jpg"
+  ],
+  "summary_json_sha256": "fd0e1b8bec39ae8704d5146da62d4c77735ccc06522185a6cbc2d32b363c7c24"
+}

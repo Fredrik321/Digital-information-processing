@@ -1,0 +1,153 @@
+{
+  "header_bytes_per_container": 293,
+  "images": 811,
+  "per_class": {
+    "AMERICAN GOLDFINCH": {
+      "huffman": 1.0765,
+      "huffman+horizontal": 1.7454,
+      "huffman+vertical": 1.7033,
+      "images": 143,
+      "png": 2.0498,
+      "zlib-6": 1.4692,
+      "zlib6_unframed": 1.4734
+    },
+    "BARN OWL": {
+      "huffman": 1.0791,
+      "huffman+horizontal": 1.6194,
+      "huffman+vertical": 1.6474,
+      "images": 129,
+      "png": 1.9594,
+      "zlib-6": 1.414,
+      "zlib6_unframed": 1.4179
+    },
+    "CARMINE BEE-EATER": {
+      "huffman": 1.158,
+      "huffman+horizontal": 1.9539,
+      "huffman+vertical": 1.8873,
+      "images": 131,
+      "png": 2.3918,
+      "zlib-6": 1.7713,
+      "zlib6_unframed": 1.7774
+    },
+    "DOWNY WOODPECKER": {
+      "huffman": 1.0589,
+      "huffman+horizontal": 1.497,
+      "huffman+vertical": 1.5138,
+      "images": 137,
+      "png": 1.8155,
+      "zlib-6": 1.3671,
+      "zlib6_unframed": 1.3708
+    },
+    "EMPEROR PENGUIN": {
+      "huffman": 1.112,
+      "huffman+horizontal": 1.8889,
+      "huffman+vertical": 1.7365,
+      "images": 139,
+      "png": 2.4511,
+      "zlib-6": 1.7871,
+      "zlib6_unframed": 1.7934
+    },
+    "FLAMINGO": {
+      "huffman": 1.108,
+      "huffman+horizontal": 1.6929,
+      "huffman+vertical": 1.5848,
+      "images": 132,
+      "png": 1.9519,
+      "zlib-6": 1.3714,
+      "zlib6_unframed": 1.3751
+    }
+  },
+  "raw_bytes": 122078208,
+  "variants": {
+    "huffman": {
+      "aggregate_ratio": 1.0974,
+      "best_image": "FLAMINGO/116.jpg",
+      "bits_per_byte": 7.29,
+      "per_image_ratio": {
+        "max": 3.4494,
+        "median": 1.072,
+        "min": 0.999,
+        "q1": 1.0428,
+        "q3": 1.1287
+      },
+      "smallest_on": 0,
+      "total_bytes": 111243444,
+      "worst_image": "AMERICAN GOLDFINCH/112.jpg"
+    },
+    "huffman+horizontal": {
+      "aggregate_ratio": 1.7192,
+      "best_image": "EMPEROR PENGUIN/076.jpg",
+      "bits_per_byte": 4.6532,
+      "per_image_ratio": {
+        "max": 4.0989,
+        "median": 1.7165,
+        "min": 1.1966,
+        "q1": 1.5574,
+        "q3": 1.9295
+      },
+      "smallest_on": 0,
+      "total_bytes": 71007198,
+      "worst_image": "FLAMINGO/009.jpg"
+    },
+    "huffman+vertical": {
+      "aggregate_ratio": 1.6704,
+      "best_image": "EMPEROR PENGUIN/076.jpg",
+      "bits_per_byte": 4.7892,
+      "per_image_ratio": {
+        "max": 4.2777,
+        "median": 1.6641,
+        "min": 1.149,
+        "q1": 1.5305,
+        "q3": 1.8428
+      },
+      "smallest_on": 0,
+      "total_bytes": 73082316,
+      "worst_image": "FLAMINGO/023.jpg"
+    },
+    "png": {
+      "aggregate_ratio": 2.0786,
+      "best_image": "EMPEROR PENGUIN/076.jpg",
+      "bits_per_byte": 3.8487,
+      "per_image_ratio": {
+        "max": 9.896,
+        "median": 2.0655,
+        "min": 1.2972,
+        "q1": 1.8366,
+        "q3": 2.4261
+      },
+      "smallest_on": 811,
+      "total_bytes": 58730816,
+      "worst_image": "FLAMINGO/009.jpg"
+    },
+    "zlib-6": {
+      "aggregate_ratio": 1.5109,
+      "best_image": "EMPEROR PENGUIN/076.jpg",
+      "bits_per_byte": 5.2948,
+      "per_image_ratio": {
+        "max": 7.372,
+        "median": 1.5083,
+        "min": 1.0323,
+        "q1": 1.3044,
+        "q3": 1.7754
+      },
+      "smallest_on": 0,
+      "total_bytes": 80797251,
+      "worst_image": "FLAMINGO/009.jpg"
+    },
+    "zlib6_unframed": {
+      "aggregate_ratio": 1.5154,
+      "best_image": "EMPEROR PENGUIN/076.jpg",
+      "bits_per_byte": 5.2792,
+      "per_image_ratio": {
+        "max": 7.4793,
+        "median": 1.5127,
+        "min": 1.0343,
+        "q1": 1.3078,
+        "q3": 1.7816
+      },
+      "smallest_on": 0,
+      "total_bytes": 80559628,
+      "worst_image": "FLAMINGO/009.jpg"
+    }
+  }
+}

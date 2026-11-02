@@ -1,0 +1,485 @@
+{
+  "corrupt": {
+    "decode_failed": [],
+    "errors": {},
+    "missing_jpeg_end_marker": [],
+    "verify_failed": []
+  },
+  "duplicates": {
+    "confirmed_near_duplicates": 24,
+    "cross_class_candidates": [
+      {
+        "a": "CARMINE BEE-EATER/066.jpg",
+        "b": "EMPEROR PENGUIN/011.jpg",
+        "cross_class": true,
+        "distance": 11,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "AMERICAN GOLDFINCH/115.jpg",
+        "b": "BARN OWL/015.jpg",
+        "cross_class": true,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "EMPEROR PENGUIN/124.jpg",
+        "b": "FLAMINGO/050.jpg",
+        "cross_class": true,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      }
+    ],
+    "cross_class_duplicates": [],
+    "duplicate_groups": [
+      [
+        "AMERICAN GOLDFINCH/011.jpg",
+        "AMERICAN GOLDFINCH/046.jpg"
+      ],
+      [
+        "AMERICAN GOLDFINCH/063.jpg",
+        "AMERICAN GOLDFINCH/135.jpg"
+      ],
+      [
+        "BARN OWL/007.jpg",
+        "BARN OWL/060.jpg"
+      ],
+      [
+        "BARN OWL/024.jpg",
+        "BARN OWL/028.jpg"
+      ],
+      [
+        "CARMINE BEE-EATER/004.jpg",
+        "CARMINE BEE-EATER/016.jpg",
+        "CARMINE BEE-EATER/081.jpg"
+      ],
+      [
+        "CARMINE BEE-EATER/010.jpg",
+        "CARMINE BEE-EATER/023.jpg",
+        "CARMINE BEE-EATER/093.jpg"
+      ],
+      [
+        "CARMINE BEE-EATER/013.jpg",
+        "CARMINE BEE-EATER/070.jpg"
+      ],
+      [
+        "CARMINE BEE-EATER/031.jpg",
+        "CARMINE BEE-EATER/113.jpg"
+      ],
+      [
+        "DOWNY WOODPECKER/025.jpg",
+        "DOWNY WOODPECKER/056.jpg"
+      ],
+      [
+        "DOWNY WOODPECKER/129.jpg",
+        "DOWNY WOODPECKER/130.jpg"
+      ],
+      [
+        "EMPEROR PENGUIN/040.jpg",
+        "EMPEROR PENGUIN/058.jpg",
+        "EMPEROR PENGUIN/069.jpg",
+        "EMPEROR PENGUIN/089.jpg"
+      ],
+      [
+        "EMPEROR PENGUIN/051.jpg",
+        "EMPEROR PENGUIN/099.jpg"
+      ],
+      [
+        "EMPEROR PENGUIN/125.jpg",
+        "EMPEROR PENGUIN/136.jpg"
+      ],
+      [
+        "EMPEROR PENGUIN/128.jpg",
+        "EMPEROR PENGUIN/139.jpg"
+      ],
+      [
+        "FLAMINGO/005.jpg",
+        "FLAMINGO/026.jpg"
+      ],
+      [
+        "FLAMINGO/015.jpg",
+        "FLAMINGO/027.jpg"
+      ],
+      [
+        "FLAMINGO/089.jpg",
+        "FLAMINGO/091.jpg"
+      ]
+    ],
+    "exact_byte_groups": [],
+    "exact_pixel_groups": [],
+    "files_in_duplicate_groups": 38,
+    "near_duplicate_candidates": [
+      {
+        "a": "EMPEROR PENGUIN/125.jpg",
+        "b": "EMPEROR PENGUIN/136.jpg",
+        "cross_class": false,
+        "distance": 0,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/128.jpg",
+        "b": "EMPEROR PENGUIN/139.jpg",
+        "cross_class": false,
+        "distance": 0,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "FLAMINGO/005.jpg",
+        "b": "FLAMINGO/026.jpg",
+        "cross_class": false,
+        "distance": 1,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "FLAMINGO/015.jpg",
+        "b": "FLAMINGO/027.jpg",
+        "cross_class": false,
+        "distance": 1,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "BARN OWL/007.jpg",
+        "b": "BARN OWL/060.jpg",
+        "cross_class": false,
+        "distance": 3,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "AMERICAN GOLDFINCH/011.jpg",
+        "b": "AMERICAN GOLDFINCH/046.jpg",
+        "cross_class": false,
+        "distance": 4,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "DOWNY WOODPECKER/025.jpg",
+        "b": "DOWNY WOODPECKER/056.jpg",
+        "cross_class": false,
+        "distance": 4,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/058.jpg",
+        "b": "EMPEROR PENGUIN/069.jpg",
+        "cross_class": false,
+        "distance": 4,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "DOWNY WOODPECKER/129.jpg",
+        "b": "DOWNY WOODPECKER/130.jpg",
+        "cross_class": false,
+        "distance": 5,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/040.jpg",
+        "b": "EMPEROR PENGUIN/058.jpg",
+        "cross_class": false,
+        "distance": 5,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/040.jpg",
+        "b": "EMPEROR PENGUIN/069.jpg",
+        "cross_class": false,
+        "distance": 5,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "AMERICAN GOLDFINCH/063.jpg",
+        "b": "AMERICAN GOLDFINCH/135.jpg",
+        "cross_class": false,
+        "distance": 6,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "CARMINE BEE-EATER/010.jpg",
+        "b": "CARMINE BEE-EATER/023.jpg",
+        "cross_class": false,
+        "distance": 6,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "CARMINE BEE-EATER/013.jpg",
+        "b": "CARMINE BEE-EATER/070.jpg",
+        "cross_class": false,
+        "distance": 6,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/058.jpg",
+        "b": "EMPEROR PENGUIN/089.jpg",
+        "cross_class": false,
+        "distance": 6,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "CARMINE BEE-EATER/031.jpg",
+        "b": "CARMINE BEE-EATER/113.jpg",
+        "cross_class": false,
+        "distance": 7,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/040.jpg",
+        "b": "EMPEROR PENGUIN/089.jpg",
+        "cross_class": false,
+        "distance": 7,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/051.jpg",
+        "b": "EMPEROR PENGUIN/099.jpg",
+        "cross_class": false,
+        "distance": 7,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "BARN OWL/024.jpg",
+        "b": "BARN OWL/028.jpg",
+        "cross_class": false,
+        "distance": 8,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "FLAMINGO/089.jpg",
+        "b": "FLAMINGO/091.jpg",
+        "cross_class": false,
+        "distance": 9,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "BARN OWL/080.jpg",
+        "b": "BARN OWL/110.jpg",
+        "cross_class": false,
+        "distance": 10,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "CARMINE BEE-EATER/016.jpg",
+        "b": "CARMINE BEE-EATER/081.jpg",
+        "cross_class": false,
+        "distance": 10,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "EMPEROR PENGUIN/014.jpg",
+        "b": "EMPEROR PENGUIN/022.jpg",
+        "cross_class": false,
+        "distance": 10,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "EMPEROR PENGUIN/069.jpg",
+        "b": "EMPEROR PENGUIN/089.jpg",
+        "cross_class": false,
+        "distance": 10,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "CARMINE BEE-EATER/004.jpg",
+        "b": "CARMINE BEE-EATER/016.jpg",
+        "cross_class": false,
+        "distance": 11,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "CARMINE BEE-EATER/066.jpg",
+        "b": "EMPEROR PENGUIN/011.jpg",
+        "cross_class": true,
+        "distance": 11,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "EMPEROR PENGUIN/037.jpg",
+        "b": "EMPEROR PENGUIN/060.jpg",
+        "cross_class": false,
+        "distance": 11,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "AMERICAN GOLDFINCH/072.jpg",
+        "b": "AMERICAN GOLDFINCH/076.jpg",
+        "cross_class": false,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "AMERICAN GOLDFINCH/115.jpg",
+        "b": "BARN OWL/015.jpg",
+        "cross_class": true,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "BARN OWL/033.jpg",
+        "b": "BARN OWL/110.jpg",
+        "cross_class": false,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "CARMINE BEE-EATER/010.jpg",
+        "b": "CARMINE BEE-EATER/093.jpg",
+        "cross_class": false,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "duplicate"
+      },
+      {
+        "a": "DOWNY WOODPECKER/049.jpg",
+        "b": "DOWNY WOODPECKER/051.jpg",
+        "cross_class": false,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "EMPEROR PENGUIN/066.jpg",
+        "b": "EMPEROR PENGUIN/116.jpg",
+        "cross_class": false,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "EMPEROR PENGUIN/071.jpg",
+        "b": "EMPEROR PENGUIN/105.jpg",
+        "cross_class": false,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      },
+      {
+        "a": "EMPEROR PENGUIN/124.jpg",
+        "b": "FLAMINGO/050.jpg",
+        "cross_class": true,
+        "distance": 12,
+        "reviewed_by": "",
+        "verdict": "different"
+      }
+    ],
+    "near_duplicate_distance_histogram": {
+      "<=0": 2,
+      "<=10": 24,
+      "<=12": 35,
+      "<=2": 4,
+      "<=4": 8,
+      "<=6": 15,
+      "<=8": 19
+    },
+    "near_duplicate_method": "64-bit dHash, Hamming distance <= 12",
+    "redundant_files": 21,
+    "review_by_distance_band": {
+      "0-6": {
+        "duplicate": 15,
+        "pairs": 15,
+        "unreviewed": 0
+      },
+      "11-12": {
+        "duplicate": 2,
+        "pairs": 11,
+        "unreviewed": 0
+      },
+      "7-10": {
+        "duplicate": 7,
+        "pairs": 9,
+        "unreviewed": 0
+      }
+    }
+  },
+  "encoding": {
+    "formats": {
+      "JPEG": 811
+    },
+    "jpeg_quality": {
+      "95": 811
+    },
+    "modes": {
+      "RGB": 811
+    },
+    "sizes": {
+      "224x224": 811
+    }
+  },
+  "files": 811,
+  "missing_values": {
+    "constant_images": [],
+    "files_with_exif": 0,
+    "not_rgb": [],
+    "note": "Pixels cannot be missing in a decoded JPEG; missing data shows up as absent, empty or undecodable files, blank images, or absent metadata.",
+    "undecodable_files": [],
+    "zero_byte_files": []
+  },
+  "per_class": {
+    "AMERICAN GOLDFINCH": 143,
+    "BARN OWL": 129,
+    "CARMINE BEE-EATER": 131,
+    "DOWNY WOODPECKER": 137,
+    "EMPEROR PENGUIN": 139,
+    "FLAMINGO": 132
+  },
+  "ranges": {
+    "file_bytes": {
+      "max": 35493,
+      "median": 19202,
+      "min": 6067,
+      "total": 15967831
+    },
+    "image_mean": {
+      "max": 243.54,
+      "median": 118.68,
+      "min": 43.32
+    },
+    "image_std": {
+      "max": 98.13,
+      "median": 56.17,
+      "min": 25.55
+    },
+    "images_using_0": 742,
+    "images_using_255": 671,
+    "lowest_contrast": [
+      "FLAMINGO/129.jpg",
+      "CARMINE BEE-EATER/010.jpg",
+      "CARMINE BEE-EATER/023.jpg",
+      "FLAMINGO/123.jpg",
+      "CARMINE BEE-EATER/093.jpg"
+    ],
+    "pixel_max": 255,
+    "pixel_min": 0
+  }
+}
