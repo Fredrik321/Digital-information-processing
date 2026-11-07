@@ -1,6 +1,7 @@
 """Quality-assurance report: missing values, ranges, duplicates, corrupt files.
 
-    python qa.py     # writes outputs/qa/qa_report.json, qa_report.md, near_duplicates.jpg
+    python qa.py     # writes outputs/qa/qa_report.json, qa_report.md, near_duplicates.jpg,
+                     # near_duplicate_examples.jpg
 
 The report describes the data; it never stops the pipeline. Contract
 violations are validate.py's job. Near-duplicate candidates are found with a
@@ -16,7 +17,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 from common import HERE, atomic_write_bytes, atomic_write_json, atomic_write_text
 import manifest
@@ -26,6 +27,12 @@ import manifest
 # were mixed, and duplicates still appeared at 12, so nothing beyond it is known.
 NEAR_DUP_MAX_DISTANCE = 12
 REVIEW_FILE = HERE / "qa_review.csv"
+# The one-row figure in the report: a copy that looks identical, a re-zoomed copy,
+# a re-cropped copy at the review limit, and a rejected pair at the same distance.
+EXAMPLE_PAIRS = [("EMPEROR PENGUIN/125.jpg", "EMPEROR PENGUIN/136.jpg"),
+                 ("BARN OWL/024.jpg", "BARN OWL/028.jpg"),
+                 ("CARMINE BEE-EATER/010.jpg", "CARMINE BEE-EATER/093.jpg"),
+                 ("EMPEROR PENGUIN/071.jpg", "EMPEROR PENGUIN/105.jpg")]
 
 # Standard IJG luminance table (natural order), used to name the JPEG quality.
 IJG_LUMA = [16, 11, 10, 16, 24, 40, 51, 61, 12, 12, 14, 19, 26, 58, 60, 55,
@@ -121,10 +128,13 @@ def precision_by_band(pairs):
     return bands
 
 
-def contact_sheet(root, pairs, out_path, per_row=3, thumb=112):
+def contact_sheet(root, pairs, out_path, per_row=3, thumb=112, examples=False):
+    """All candidates numbered by distance, or (examples=True) a labelled row of examples."""
     if not pairs:
         return
-    cell_w, cell_h = 2 * thumb + 12, thumb + 30
+    font = ImageFont.load_default(size=13) if examples else None
+    line = 17 if examples else 13
+    cell_w, cell_h = 2 * thumb + 12, thumb + 4 + 2 * line
     rows = (len(pairs) + per_row - 1) // per_row
     sheet = Image.new("RGB", (per_row * cell_w, rows * cell_h), "white")
     draw = ImageDraw.Draw(sheet)
@@ -133,9 +143,12 @@ def contact_sheet(root, pairs, out_path, per_row=3, thumb=112):
         for k, rel in enumerate((p["a"], p["b"])):
             with Image.open(root / rel) as im:
                 sheet.paste(im.convert("RGB").resize((thumb, thumb)), (x + k * thumb, y))
-        short = lambda rel: rel.split("/")[0].split()[-1][:8] + "/" + rel.split("/")[1][:3]
-        draw.text((x + 2, y + thumb + 2), f"#{n + 1} d={p['distance']}", fill="black")
-        draw.text((x + 2, y + thumb + 15), f"{short(p['a'])} | {short(p['b'])}", fill="black")
+        short = lambda rel: (rel.split("/")[0].split()[-1][:None if examples else 8]
+                             + "/" + rel.split("/")[1][:3])
+        head = f"distance {p['distance']}: {p['verdict']}" if examples else f"#{n + 1} d={p['distance']}"
+        draw.text((x + 2, y + thumb + 2), head, fill="black", font=font)
+        draw.text((x + 2, y + thumb + 2 + line), f"{short(p['a'])} | {short(p['b'])}",
+                  fill="black", font=font)
     buf = io.BytesIO()
     sheet.save(buf, format="JPEG", quality=85)
     atomic_write_bytes(out_path, buf.getvalue())
@@ -235,6 +248,9 @@ def run_qa(root, entries, out_dir):
     atomic_write_json(out_dir / "qa_report.json", report)
     atomic_write_text(out_dir / "qa_report.md", render_markdown(report))
     contact_sheet(root, pairs, out_dir / "near_duplicates.jpg")
+    examples = [p for key in EXAMPLE_PAIRS for p in pairs if (p["a"], p["b"]) == key]
+    contact_sheet(root, examples, out_dir / "near_duplicate_examples.jpg",
+                  per_row=max(len(examples), 1), thumb=128, examples=True)
     return report
 
 
