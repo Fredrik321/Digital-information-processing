@@ -2,6 +2,10 @@
 
 The dataset (`../Bird Speciees Dataset`, 811 JPEG files) and the P2 codec are packaged here so that another pair can verify the inputs, reproduce the result, and see where it stops being reliable. The report, with the datasheet, is [p3.md](p3.md).
 
+## Dataset source and licence
+
+"Bird Speciees Dataset" by Rahma Sleam, Version 1 (29 September 2024), downloaded from Kaggle: <https://www.kaggle.com/datasets/rahmasleam/bird-speciees-dataset>. The uploader declares it under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). The page gives its own source only as "GitHub", without a link, so who took the photographs is unknown; see the datasheet in [p3.md](p3.md) §1.
+
 ## Quick start
 
 ```bash
