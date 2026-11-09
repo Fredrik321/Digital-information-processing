@@ -6,14 +6,14 @@
     "verify_failed": []
   },
   "duplicates": {
-    "confirmed_near_duplicates": 24,
+    "confirmed_near_duplicates": 23,
     "cross_class_candidates": [
       {
         "a": "CARMINE BEE-EATER/066.jpg",
         "b": "EMPEROR PENGUIN/011.jpg",
         "cross_class": true,
         "distance": 11,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -21,7 +21,7 @@
         "b": "BARN OWL/015.jpg",
         "cross_class": true,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -29,7 +29,7 @@
         "b": "FLAMINGO/050.jpg",
         "cross_class": true,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       }
     ],
@@ -58,8 +58,7 @@
       ],
       [
         "CARMINE BEE-EATER/010.jpg",
-        "CARMINE BEE-EATER/023.jpg",
-        "CARMINE BEE-EATER/093.jpg"
+        "CARMINE BEE-EATER/023.jpg"
       ],
       [
         "CARMINE BEE-EATER/013.jpg",
@@ -110,14 +109,14 @@
     ],
     "exact_byte_groups": [],
     "exact_pixel_groups": [],
-    "files_in_duplicate_groups": 38,
+    "files_in_duplicate_groups": 37,
     "near_duplicate_candidates": [
       {
         "a": "EMPEROR PENGUIN/125.jpg",
         "b": "EMPEROR PENGUIN/136.jpg",
         "cross_class": false,
         "distance": 0,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -125,7 +124,7 @@
         "b": "EMPEROR PENGUIN/139.jpg",
         "cross_class": false,
         "distance": 0,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -133,7 +132,7 @@
         "b": "FLAMINGO/026.jpg",
         "cross_class": false,
         "distance": 1,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -141,7 +140,7 @@
         "b": "FLAMINGO/027.jpg",
         "cross_class": false,
         "distance": 1,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -149,7 +148,7 @@
         "b": "BARN OWL/060.jpg",
         "cross_class": false,
         "distance": 3,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -157,7 +156,7 @@
         "b": "AMERICAN GOLDFINCH/046.jpg",
         "cross_class": false,
         "distance": 4,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -165,7 +164,7 @@
         "b": "DOWNY WOODPECKER/056.jpg",
         "cross_class": false,
         "distance": 4,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -173,7 +172,7 @@
         "b": "EMPEROR PENGUIN/069.jpg",
         "cross_class": false,
         "distance": 4,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -181,7 +180,7 @@
         "b": "DOWNY WOODPECKER/130.jpg",
         "cross_class": false,
         "distance": 5,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -189,7 +188,7 @@
         "b": "EMPEROR PENGUIN/058.jpg",
         "cross_class": false,
         "distance": 5,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -197,7 +196,7 @@
         "b": "EMPEROR PENGUIN/069.jpg",
         "cross_class": false,
         "distance": 5,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -205,7 +204,7 @@
         "b": "AMERICAN GOLDFINCH/135.jpg",
         "cross_class": false,
         "distance": 6,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -213,7 +212,7 @@
         "b": "CARMINE BEE-EATER/023.jpg",
         "cross_class": false,
         "distance": 6,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -221,7 +220,7 @@
         "b": "CARMINE BEE-EATER/070.jpg",
         "cross_class": false,
         "distance": 6,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -229,7 +228,7 @@
         "b": "EMPEROR PENGUIN/089.jpg",
         "cross_class": false,
         "distance": 6,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -237,7 +236,7 @@
         "b": "CARMINE BEE-EATER/113.jpg",
         "cross_class": false,
         "distance": 7,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -245,7 +244,7 @@
         "b": "EMPEROR PENGUIN/089.jpg",
         "cross_class": false,
         "distance": 7,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -253,7 +252,7 @@
         "b": "EMPEROR PENGUIN/099.jpg",
         "cross_class": false,
         "distance": 7,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -261,7 +260,7 @@
         "b": "BARN OWL/028.jpg",
         "cross_class": false,
         "distance": 8,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -269,7 +268,7 @@
         "b": "FLAMINGO/091.jpg",
         "cross_class": false,
         "distance": 9,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -277,7 +276,7 @@
         "b": "BARN OWL/110.jpg",
         "cross_class": false,
         "distance": 10,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -285,7 +284,7 @@
         "b": "CARMINE BEE-EATER/081.jpg",
         "cross_class": false,
         "distance": 10,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -293,7 +292,7 @@
         "b": "EMPEROR PENGUIN/022.jpg",
         "cross_class": false,
         "distance": 10,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -301,7 +300,7 @@
         "b": "EMPEROR PENGUIN/089.jpg",
         "cross_class": false,
         "distance": 10,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -309,7 +308,7 @@
         "b": "CARMINE BEE-EATER/016.jpg",
         "cross_class": false,
         "distance": 11,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "duplicate"
       },
       {
@@ -317,7 +316,7 @@
         "b": "EMPEROR PENGUIN/011.jpg",
         "cross_class": true,
         "distance": 11,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -325,7 +324,7 @@
         "b": "EMPEROR PENGUIN/060.jpg",
         "cross_class": false,
         "distance": 11,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -333,7 +332,7 @@
         "b": "AMERICAN GOLDFINCH/076.jpg",
         "cross_class": false,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -341,7 +340,7 @@
         "b": "BARN OWL/015.jpg",
         "cross_class": true,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -349,7 +348,7 @@
         "b": "BARN OWL/110.jpg",
         "cross_class": false,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -357,15 +356,15 @@
         "b": "CARMINE BEE-EATER/093.jpg",
         "cross_class": false,
         "distance": 12,
-        "reviewed_by": "",
-        "verdict": "duplicate"
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
+        "verdict": "different"
       },
       {
         "a": "DOWNY WOODPECKER/049.jpg",
         "b": "DOWNY WOODPECKER/051.jpg",
         "cross_class": false,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -373,7 +372,7 @@
         "b": "EMPEROR PENGUIN/116.jpg",
         "cross_class": false,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -381,7 +380,7 @@
         "b": "EMPEROR PENGUIN/105.jpg",
         "cross_class": false,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       },
       {
@@ -389,7 +388,7 @@
         "b": "FLAMINGO/050.jpg",
         "cross_class": true,
         "distance": 12,
-        "reviewed_by": "",
+        "reviewed_by": "Aksel Wiersdalen and Fredrik Svendsrud",
         "verdict": "different"
       }
     ],
@@ -403,7 +402,7 @@
       "<=8": 19
     },
     "near_duplicate_method": "64-bit dHash, Hamming distance <= 12",
-    "redundant_files": 21,
+    "redundant_files": 20,
     "review_by_distance_band": {
       "0-6": {
         "duplicate": 15,
@@ -411,7 +410,7 @@
         "unreviewed": 0
       },
       "11-12": {
-        "duplicate": 2,
+        "duplicate": 1,
         "pairs": 11,
         "unreviewed": 0
       },

@@ -51,10 +51,10 @@
     "python_zlib": "1.3.1"
   },
   "manifest_sha256": "6af9010bab12a83348f0ef68bdf416de97bb5564bd7cd2e300d554f3b83448c3",
-  "peak_rss_bytes": 96194560,
+  "peak_rss_bytes": 96342016,
   "reference_mismatches": [],
   "results_csv_sha256": "13e7b955ae5ba0532f0f9dfed24d519ca3494643edd0a1947536e02ccf86ef37",
-  "seconds": 21.7,
+  "seconds": 39.2,
   "subset": [
     "AMERICAN GOLDFINCH/001.jpg",
     "AMERICAN GOLDFINCH/033.jpg",

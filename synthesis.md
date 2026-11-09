@@ -9,7 +9,7 @@ The **Bird Speciees Dataset** (Rahma Sleam, Kaggle v1, 29 September 2024, Apache
 
 ## 2 · How did each part shape the next?
 
-A P1 choice constrained the P2 codec directly: P1's loader fixed the baseline as the (811, 224, 224, 3) `uint8` array of JPEG-**decoded** pixels. That stream is close to random at the byte level (entropy 7.648 bits/byte), so zero-order Huffman alone barely compressed it (ratio 1.04), which forced P2 to add horizontal/vertical delta predictors and a PNG path. It also means every P2 ratio describes JPEG-decoded pixels, not camera originals. P1's loader also called `.convert("RGB")`, which would silently mask a wrong colour mode; P3's validator rejects such a file instead (p3.md §2). P2's feedback became P3's brief: zlib got the same container framing, the two development images became all 811, and P2's quadratic bit-packer was rewritten to run 90–165× faster (p3.md §7). P1's concerns became P3's measurements: the background effect is now visible in per-class compression ratios (p3.md §9), and the 21 duplicates P3 found put a caveat on P1's 46.8 % classifier result (p3.md §10).
+A P1 choice constrained the P2 codec directly: P1's loader fixed the baseline as the (811, 224, 224, 3) `uint8` array of JPEG-**decoded** pixels. That stream is close to random at the byte level (entropy 7.648 bits/byte), so zero-order Huffman alone barely compressed it (ratio 1.04), which forced P2 to add horizontal/vertical delta predictors and a PNG path. It also means every P2 ratio describes JPEG-decoded pixels, not camera originals. P1's loader also called `.convert("RGB")`, which would silently mask a wrong colour mode; P3's validator rejects such a file instead (p3.md §2). P2's feedback became P3's brief: zlib got the same container framing, the two development images became all 811, and P2's quadratic bit-packer was rewritten to run 90–165× faster (p3.md §7). P1's concerns became P3's measurements: the background effect is now visible in per-class compression ratios (p3.md §9), and the 20 duplicate copies P3 found put a caveat on P1's 46.8 % classifier result (p3.md §10).
 
 ## 3 · Strongest evidence and main limitation
 
@@ -21,7 +21,7 @@ A P1 choice constrained the P2 codec directly: P1's loader fixed the baseline as
 
 ## 5 · What is still unresolved?
 
-The upstream source and rights of the photographs (the largest open problem); how many near-duplicates lie beyond the dHash-12 threshold (21 is a lower bound); whether P1's 46.8 % is inflated by those duplicates (not re-run); representativeness (six curated species, drawings among photographs, systematic background differences, unknown capture conditions); and the P3 schema sees structure, not meaning: a mislabelled bird still passes validation.
+The upstream source and rights of the photographs (the largest open problem); how many near-duplicates lie beyond the dHash-12 threshold (20 is a lower bound); whether P1's 46.8 % is inflated by those duplicates (not re-run); representativeness (six curated species, drawings among photographs, systematic background differences, unknown capture conditions); and the P3 schema sees structure, not meaning: a mislabelled bird still passes validation.
 
 ## AI declaration
 

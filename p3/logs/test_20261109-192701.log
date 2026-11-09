@@ -1,0 +1,24 @@
+19:27:01 INFO    run test started 2026-11-09T19:27:01
+19:27:01 INFO    config config.json (sha256 405d43b10c5e7d4b), seed 4120
+19:27:01 INFO    env python 3.11.9 | numpy 2.1.3 | pillow 11.1.0 (zlib 1.3.1.zlib-ng, libjpeg-turbo 3.1.0) | Windows-10-10.0.26300-SP0
+19:27:02 INFO    manifest OK: 811 files, 15,967,831 bytes (manifest sha256 6af9010bab12a833)
+19:27:05 INFO    schema OK: 811 files are JPEG RGB (224, 224, 3); decoded pixels sha256 cb5f65495c5cfc3f
+19:27:17 INFO    qa: 0 exact duplicate groups, 23 near-duplicate pairs confirmed in 17 groups (20 redundant files), 0 corrupt
+19:27:17 INFO    subset: 14 images (per_class=2, seed 4120), variants huffman, huffman+horizontal, huffman+vertical, png, zlib-6
+19:27:22 INFO    progress 2/14 (20 s)
+19:27:25 INFO    progress 4/14 (23 s)
+19:27:27 INFO    progress 6/14 (26 s)
+19:27:30 INFO    progress 8/14 (29 s)
+19:27:35 INFO    progress 10/14 (33 s)
+19:27:38 INFO    progress 12/14 (37 s)
+19:27:40 INFO    progress 14/14 (39 s)
+19:27:40 INFO    huffman              total   1,911,150 bytes  ratio 1.103  per-image median 1.085 [1.039-1.349]
+19:27:40 INFO    huffman+horizontal   total   1,154,376 bytes  ratio 1.826  per-image median 1.774 [1.581-2.423]
+19:27:40 INFO    huffman+vertical     total   1,244,191 bytes  ratio 1.694  per-image median 1.668 [1.455-2.270]
+19:27:40 INFO    png                  total     954,315 bytes  ratio 2.208  per-image median 2.086 [1.784-3.279]
+19:27:40 INFO    zlib-6               total   1,340,585 bytes  ratio 1.572  per-image median 1.505 [1.178-2.351]
+19:27:40 INFO    zlib6_unframed       total   1,336,483 bytes  ratio 1.577  per-image median 1.510 [1.180-2.362]
+19:27:40 INFO    results.csv sha256 13e7b955ae5ba053, summary.json sha256 fd0e1b8bec39ae87
+19:27:40 INFO    outputs in outputs\test
+19:27:40 INFO    reference check OK: P2's reported sizes reproduced exactly
+19:27:40 INFO    done in 39.2 s, peak memory 92 MiB

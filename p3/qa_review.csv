@@ -1,36 +1,36 @@
 a,b,distance,verdict,note,reviewed_by
-EMPEROR PENGUIN/125.jpg,EMPEROR PENGUIN/136.jpg,0,duplicate,same photo,
-EMPEROR PENGUIN/128.jpg,EMPEROR PENGUIN/139.jpg,0,duplicate,same photo,
-FLAMINGO/005.jpg,FLAMINGO/026.jpg,1,duplicate,same photo,
-FLAMINGO/015.jpg,FLAMINGO/027.jpg,1,duplicate,same photo,
-BARN OWL/007.jpg,BARN OWL/060.jpg,3,duplicate,same photo,
-AMERICAN GOLDFINCH/011.jpg,AMERICAN GOLDFINCH/046.jpg,4,duplicate,same photo,
-DOWNY WOODPECKER/025.jpg,DOWNY WOODPECKER/056.jpg,4,duplicate,same photo,
-EMPEROR PENGUIN/058.jpg,EMPEROR PENGUIN/069.jpg,4,duplicate,same photo,
-DOWNY WOODPECKER/129.jpg,DOWNY WOODPECKER/130.jpg,5,duplicate,same photo; slightly shifted crop,
-EMPEROR PENGUIN/040.jpg,EMPEROR PENGUIN/058.jpg,5,duplicate,same photo,
-EMPEROR PENGUIN/040.jpg,EMPEROR PENGUIN/069.jpg,5,duplicate,same photo,
-AMERICAN GOLDFINCH/063.jpg,AMERICAN GOLDFINCH/135.jpg,6,duplicate,same photo; different crop and scale,
-CARMINE BEE-EATER/010.jpg,CARMINE BEE-EATER/023.jpg,6,duplicate,same photo,
-CARMINE BEE-EATER/013.jpg,CARMINE BEE-EATER/070.jpg,6,duplicate,same photo; shifted crop,
-EMPEROR PENGUIN/058.jpg,EMPEROR PENGUIN/089.jpg,6,duplicate,same photo; shifted crop,
-CARMINE BEE-EATER/031.jpg,CARMINE BEE-EATER/113.jpg,7,duplicate,same photo; different crop,
-EMPEROR PENGUIN/040.jpg,EMPEROR PENGUIN/089.jpg,7,duplicate,same photo,
-EMPEROR PENGUIN/051.jpg,EMPEROR PENGUIN/099.jpg,7,duplicate,same photo,
-BARN OWL/024.jpg,BARN OWL/028.jpg,8,duplicate,same photo; different zoom,
-FLAMINGO/089.jpg,FLAMINGO/091.jpg,9,duplicate,same photo; different zoom,
-BARN OWL/080.jpg,BARN OWL/110.jpg,10,different,different photos of similar frontal faces,
-CARMINE BEE-EATER/016.jpg,CARMINE BEE-EATER/081.jpg,10,duplicate,same photo; different crop,
-EMPEROR PENGUIN/014.jpg,EMPEROR PENGUIN/022.jpg,10,different,different birds and poses,
-EMPEROR PENGUIN/069.jpg,EMPEROR PENGUIN/089.jpg,10,duplicate,same photo,
-CARMINE BEE-EATER/004.jpg,CARMINE BEE-EATER/016.jpg,11,duplicate,same photo; different crop,
-CARMINE BEE-EATER/066.jpg,EMPEROR PENGUIN/011.jpg,11,different,different species,
-EMPEROR PENGUIN/037.jpg,EMPEROR PENGUIN/060.jpg,11,different,different photos,
-AMERICAN GOLDFINCH/072.jpg,AMERICAN GOLDFINCH/076.jpg,12,different,different photos,
-AMERICAN GOLDFINCH/115.jpg,BARN OWL/015.jpg,12,different,different species,
-BARN OWL/033.jpg,BARN OWL/110.jpg,12,different,different photos,
-CARMINE BEE-EATER/010.jpg,CARMINE BEE-EATER/093.jpg,12,duplicate,same photo; different crop,
-DOWNY WOODPECKER/049.jpg,DOWNY WOODPECKER/051.jpg,12,different,different photos,
-EMPEROR PENGUIN/066.jpg,EMPEROR PENGUIN/116.jpg,12,different,different photos,
-EMPEROR PENGUIN/071.jpg,EMPEROR PENGUIN/105.jpg,12,different,adult vs chick,
-EMPEROR PENGUIN/124.jpg,FLAMINGO/050.jpg,12,different,different species,
+EMPEROR PENGUIN/125.jpg,EMPEROR PENGUIN/136.jpg,0,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/128.jpg,EMPEROR PENGUIN/139.jpg,0,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+FLAMINGO/005.jpg,FLAMINGO/026.jpg,1,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+FLAMINGO/015.jpg,FLAMINGO/027.jpg,1,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+BARN OWL/007.jpg,BARN OWL/060.jpg,3,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+AMERICAN GOLDFINCH/011.jpg,AMERICAN GOLDFINCH/046.jpg,4,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+DOWNY WOODPECKER/025.jpg,DOWNY WOODPECKER/056.jpg,4,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/058.jpg,EMPEROR PENGUIN/069.jpg,4,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+DOWNY WOODPECKER/129.jpg,DOWNY WOODPECKER/130.jpg,5,duplicate,same photo; slightly shifted crop,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/040.jpg,EMPEROR PENGUIN/058.jpg,5,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/040.jpg,EMPEROR PENGUIN/069.jpg,5,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+AMERICAN GOLDFINCH/063.jpg,AMERICAN GOLDFINCH/135.jpg,6,duplicate,same photo; different crop and scale,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/010.jpg,CARMINE BEE-EATER/023.jpg,6,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/013.jpg,CARMINE BEE-EATER/070.jpg,6,duplicate,same photo; shifted crop,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/058.jpg,EMPEROR PENGUIN/089.jpg,6,duplicate,same photo; shifted crop,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/031.jpg,CARMINE BEE-EATER/113.jpg,7,duplicate,same photo; different crop,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/040.jpg,EMPEROR PENGUIN/089.jpg,7,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/051.jpg,EMPEROR PENGUIN/099.jpg,7,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+BARN OWL/024.jpg,BARN OWL/028.jpg,8,duplicate,same photo; different zoom,Aksel Wiersdalen and Fredrik Svendsrud
+FLAMINGO/089.jpg,FLAMINGO/091.jpg,9,duplicate,same photo; different zoom,Aksel Wiersdalen and Fredrik Svendsrud
+BARN OWL/080.jpg,BARN OWL/110.jpg,10,different,different photos of similar frontal faces,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/016.jpg,CARMINE BEE-EATER/081.jpg,10,duplicate,same photo; different crop,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/014.jpg,EMPEROR PENGUIN/022.jpg,10,different,different birds and poses,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/069.jpg,EMPEROR PENGUIN/089.jpg,10,duplicate,same photo,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/004.jpg,CARMINE BEE-EATER/016.jpg,11,duplicate,same photo; different crop,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/066.jpg,EMPEROR PENGUIN/011.jpg,11,different,different species,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/037.jpg,EMPEROR PENGUIN/060.jpg,11,different,different photos,Aksel Wiersdalen and Fredrik Svendsrud
+AMERICAN GOLDFINCH/072.jpg,AMERICAN GOLDFINCH/076.jpg,12,different,different photos,Aksel Wiersdalen and Fredrik Svendsrud
+AMERICAN GOLDFINCH/115.jpg,BARN OWL/015.jpg,12,different,different species,Aksel Wiersdalen and Fredrik Svendsrud
+BARN OWL/033.jpg,BARN OWL/110.jpg,12,different,different photos,Aksel Wiersdalen and Fredrik Svendsrud
+CARMINE BEE-EATER/010.jpg,CARMINE BEE-EATER/093.jpg,12,different,different photos,Aksel Wiersdalen and Fredrik Svendsrud
+DOWNY WOODPECKER/049.jpg,DOWNY WOODPECKER/051.jpg,12,different,different photos,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/066.jpg,EMPEROR PENGUIN/116.jpg,12,different,different photos,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/071.jpg,EMPEROR PENGUIN/105.jpg,12,different,adult vs chick,Aksel Wiersdalen and Fredrik Svendsrud
+EMPEROR PENGUIN/124.jpg,FLAMINGO/050.jpg,12,different,different species,Aksel Wiersdalen and Fredrik Svendsrud

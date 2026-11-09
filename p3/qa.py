@@ -24,14 +24,14 @@ import manifest
 
 # dHash bits; pairs at or below this are listed as candidates. All 35 pairs up
 # to 12 were reviewed by eye: every pair <= 6 was a duplicate, pairs at 7-12
-# were mixed, and duplicates still appeared at 12, so nothing beyond it is known.
+# were mixed, and duplicates still appeared at 11, so nothing beyond it is known.
 NEAR_DUP_MAX_DISTANCE = 12
 REVIEW_FILE = HERE / "qa_review.csv"
 # The one-row figure in the report: a copy that looks identical, a re-zoomed copy,
-# a re-cropped copy at the review limit, and a rejected pair at the same distance.
+# the farthest re-cropped copy, and a rejected pair at the review limit.
 EXAMPLE_PAIRS = [("EMPEROR PENGUIN/125.jpg", "EMPEROR PENGUIN/136.jpg"),
                  ("BARN OWL/024.jpg", "BARN OWL/028.jpg"),
-                 ("CARMINE BEE-EATER/010.jpg", "CARMINE BEE-EATER/093.jpg"),
+                 ("CARMINE BEE-EATER/004.jpg", "CARMINE BEE-EATER/016.jpg"),
                  ("EMPEROR PENGUIN/071.jpg", "EMPEROR PENGUIN/105.jpg")]
 
 # Standard IJG luminance table (natural order), used to name the JPEG quality.
